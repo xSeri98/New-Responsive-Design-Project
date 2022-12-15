@@ -163,6 +163,8 @@ footer ul li a {
     .hero{
        
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     }
 
 }
@@ -193,19 +195,33 @@ footer ul li a {
     
         
     }
+
+    .about-me-text-container p{
+        font-size: 10px;
+    }
     
 }
 
-@media (max-width : 388px){
-    .about-me-text-container p{
-    font-size: 15px
+@media (max-width : 270px){
+    .about-me-text-container h1{
+        font-size: 15px;
+      
+        
     }
-}
-@media (max-width : 291px){
-    .about-me-text-container p{
-    font-size: 10px
+    
+    .about-me-text-container h2{
+        font-size: 10px;
+    
+        
     }
+
+    .about-me-text-container p{
+        font-size: 8px;
+    }
+    
 }
+
+
 
 
 @media (max-width : 106px){

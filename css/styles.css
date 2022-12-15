@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@200;300;600&family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.hero{
+    background-color: #0984e3;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-color: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero img{
+    max-width: 90%;
+
+}
+
+.about-me-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.about-me-text-container h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    color: azure;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 0.5px black;
+}
+
+.about-me-text-container h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: azure;
+    padding-bottom: 20px;
+  
+}
+
+.about-me-text-container p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    color: azure;
+    padding-bottom: 20px;
+    
+}
+
+.about-me-text-container span{
+    background-color: blueviolet;
+    border-radius: 10px;
+ 
+
+}
+
+
+        
+footer{
+    background-color: #2d3436;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, #2d3436, #0984e3);
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    margin: 0 auto;
+   
+}
+
+footer ul {
+list-style: none; 
+}
+
+
+footer p{
+    margin: 5px;
+}
+
+footer ul{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer ul li{
+    margin: 0 8px;
+    font-size: 50px;
+    
+}
+
+footer ul li a {
+    color: aliceblue;
+    cursor: pointer;
+}
+
+@media (max-width : 1251px){
+    .about-me-text-container h1{
+        font-size: 50px;
+    }
+
+    .about-me-text-container h2{
+        font-size: 30px;
+    }
+
+    .about-me-text-container span{
+        font-size: 30px;
+    }
+
+    .about-me-text-container p{
+        font-size: 25px;
+    }
+}
+
+@media (max-width : 1037px){
+    .about-me-text-container h1{
+        font-size: 45px;
+    }
+}
+
+@media (max-width : 983px){
+    .about-me-text-container h1{
+        font-size: 40px;
+    }
+
+    .about-me-text-container h2{
+        font-size: 25px;
+    }
+
+    .about-me-text-container span{
+        font-size: 25px;
+    }
+
+    .about-me-text-container p{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 929px){
+    .hero{
+       
+    flex-direction: column;
+    }
+
+}
+
+
+@media (max-width : 754px){
+    .about-me-text-container h1{
+        font-size: 40px;
+    }
+    
+    .about-me-text-container h2{
+        font-size: 30px;
+    
+        
+    }
+    
+}
+
+@media (max-width : 430px){
+    .about-me-text-container h1{
+        font-size: 25px;
+      
+        
+    }
+    
+    .about-me-text-container h2{
+        font-size: 15px;
+    
+        
+    }
+    
+}
+
+@media (max-width : 388px){
+    .about-me-text-container p{
+    font-size: 15px
+    }
+}
+@media (max-width : 291px){
+    .about-me-text-container p{
+    font-size: 10px
+    }
+}
+
+
+@media (max-width : 106px){
+
+    footer ul{
+        flex-direction: column;
+    }
+
+    footer ul li a {
+        font-size: 30px;
+    }
+}
+
+
+
+

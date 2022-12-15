@@ -16,9 +16,10 @@ body{
 
 .hero{
     background-color: #0984e3;
-    border-bottom-width: 5px;
+    border-bottom-width: 3px;
     border-bottom-style: solid;
-    border-color: grey;
+    border-color: rgb(255, 255, 255);
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,6 +48,7 @@ body{
     color: azure;
     padding-bottom: 20px;
     text-shadow: 1px 1px 0.5px black;
+    
 }
 
 .about-me-text-container h2{
@@ -72,6 +74,56 @@ body{
     border-radius: 10px;
  
 
+}
+
+.my-background{
+    background-color: #0984e3;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.my-background h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 70px;
+    
+    
+}
+
+ 
+
+
+.my-background ul{
+    list-style: none;
+    
+}
+
+.my-background ul li{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
+.my-background-content > h1{
+    text-shadow: 1px 1px 1px black;
+    background-color: black;
+    width: 370px;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 10px black;
+}
+
+.my-background-content{
+    color: azure;
+    text-shadow: 0.5px 0.5px 0.1px;
 }
 
 
@@ -116,6 +168,8 @@ footer ul li a {
     color: aliceblue;
     cursor: pointer;
 }
+
+
 
 @media (max-width : 1251px){
     .about-me-text-container h1{
@@ -167,6 +221,22 @@ footer ul li a {
     align-items: center;
     }
 
+    .my-background-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .my-background-content h1{
+        font-size: 50px;
+        width: 265px;
+    }
+
+    .my-background-content ul li{
+        font-size: 30px;
+    }
+
 }
 
 
@@ -199,7 +269,20 @@ footer ul li a {
     .about-me-text-container p{
         font-size: 10px;
     }
+
+
+    .my-background-content h1{
+        font-size: 30px;
+        width: 160px;
+    }
+
+    .my-background-content ul li{
+        font-size: 15px;
+    }
+
     
+
+
 }
 
 @media (max-width : 270px){

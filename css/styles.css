@@ -31,7 +31,6 @@ body{
 
 .hero img{
     max-width: 100%;
-
 }
 
 .about-me-text-container{
@@ -93,7 +92,7 @@ body{
     padding-top: 20px;
     padding-bottom: 100px;
     border-top-width: 3px;
-border-top-style: dashed;
+    border-top-style: dashed;
 }
 
 .my-background-content{
@@ -301,6 +300,29 @@ footer ul li a {
     
     .my-story p {
         font-size: 30px;
+    }
+
+
+    .about-me-text-container h1{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 20px;
+    }
+
+    .my-story{
+        margin-left: 0px;
+    }
+
+    .my-story p{
+        border-top-width: 2px;
+        border-top-style: solid;
+        border-left-style: solid;
+        border-right-width: 2px;
+        border-right-style: solid;
+        border-bottom-width: 2px;
+        border-bottom-style: solid;
+        border-radius: 10px;
+        border-left-width: 2px;
     }
 
 }

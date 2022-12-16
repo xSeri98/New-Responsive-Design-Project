@@ -379,7 +379,20 @@ footer ul li a {
     .about-me-text-container h1{
         font-size: 27px;
     }
+
+    
+    .about-me-text-container h2{
+        font-size: 20px;
+    
+        
+    }
+
+    .about-me-text-container p{
+        font-size: 15px;
+    }
 }
+
+
 
 @media (max-width : 270px){
     .about-me-text-container h1{
@@ -399,6 +412,8 @@ footer ul li a {
     }
     
 }
+
+
 
 
 

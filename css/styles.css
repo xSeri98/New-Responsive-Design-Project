@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@200;300;600&family=Raleway:wght@300&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0 auto;
     -webkit-font-smoothing: antialiased;
@@ -15,8 +19,8 @@ body{
 
 
 .hero{
-    background-color: #0984e3;
-    background: linear-gradient(to left, #0984e3, #9198e5);
+    background-color: #004aad;
+  
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,9 +47,11 @@ body{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 70px;
-    color: azure;
-    padding-bottom: 20px;
-    text-shadow: 1px 1px 0.5px black;
+    color: #fdcb6e;
+    text-shadow: 1px 3px 1px #000000;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
     
 }
 
@@ -75,34 +81,30 @@ body{
 }
 
 .my-background{
-    background-color: #0984e3;
-    background: linear-gradient(to left, #0984e3, #9198e5);
+    background-color: #004aad;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-top-style: solid;
-    border-top-width: 0px;
-    margin-top: 5px;
     padding-top: 20px;
+    padding-bottom: 100px;
+    border-top-width: 3px;
+border-top-style: dashed;
 }
 
 .my-background-content{
-    background-color: rgba(0, 0, 0, 0.5);
+  
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-right-style: solid;
+    border-right-width: 1px;
 }
 
 .my-background h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     font-size: 70px;
+    padding-bottom: 80px;
 }
-
-
-
-
- 
 
 
 .my-background ul{
@@ -119,9 +121,11 @@ body{
 }
 
 .my-background-content > h1{
-    text-shadow: 1px 1px 1px black;
+    color: #fdcb6e;
+    text-shadow: 1px 3px 1px #000000;
     width: 370px;
     margin-top: 50px;
+    
 }
 
 .my-background-content{
@@ -133,12 +137,35 @@ body{
         align-items: center;
 }
 
+.my-story{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-story h1{
+    color: #fdcb6e;
+    text-shadow: 1px 3px 1px #000000;
+    padding-top: 50px;
+}
+
+.my-story p {
+    color: azure;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    padding: 10px;
+    
+}
+
         
 footer{
     background-color: #2d3436;
     color: white;
     text-align: center;
-    background: linear-gradient(to bottom, #2d3436, #0984e3);
+    background: linear-gradient(to top, #2d3436, #004aad);
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
@@ -195,6 +222,14 @@ footer ul li a {
     }
 }
 
+@media(max-width: 1240px){
+    .my-story h1{
+        padding-top: 120px;
+    }
+    
+   
+}
+
 @media (max-width : 1037px){
     .about-me-text-container h1{
         font-size: 45px;
@@ -205,6 +240,12 @@ footer ul li a {
     .about-me-text-container h1{
         font-size: 40px;
     }
+
+    .my-story h1{
+       
+        padding-top: 180px;
+    }
+    
 
     .about-me-text-container h2{
         font-size: 25px;
@@ -227,11 +268,18 @@ footer ul li a {
     align-items: center;
     }
 
+    .my-background{
+        flex-direction: column;
+    }
+
     .my-background-content{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        border-right: 0px;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
     }
 
     .my-background-content h1{
@@ -240,6 +288,14 @@ footer ul li a {
     }
 
     .my-background-content ul li{
+        font-size: 30px;
+    }
+
+    .my-story h1{
+        font-size: 50px;
+    }
+    
+    .my-story p {
         font-size: 30px;
     }
 
@@ -286,7 +342,13 @@ footer ul li a {
         font-size: 15px;
     }
 
+    .my-story h1{
+        font-size: 25px;
+    }
     
+    .my-story p {
+        font-size: 15px;
+    }
 
 
 }

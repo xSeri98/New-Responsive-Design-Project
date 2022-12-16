@@ -30,7 +30,7 @@ body{
 }
 
 .hero img{
-    max-width: 90%;
+    max-width: 100%;
 
 }
 
@@ -40,6 +40,10 @@ body{
     align-items: center;
     justify-content: center;
     
+}
+
+.my-picuture-container{
+    margin-right: 50px;
 }
 
 

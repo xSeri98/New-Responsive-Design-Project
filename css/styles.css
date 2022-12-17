@@ -36,12 +36,7 @@ header nav ul li {
   
 }
 
-header nav ul li :hover{
-    background-color: #fdcb6e;
-    border-radius: 5px;
-    color: grey;
-    transition: all 0.5s;
-}
+
 
 header nav ul li a{
     text-decoration: none;
@@ -239,6 +234,16 @@ footer ul li{
 footer ul li a {
     color: aliceblue;
     cursor: pointer;
+}
+
+
+@media(hover : hover){
+    header nav ul li :hover{
+        background-color: #fdcb6e;
+        border-radius: 5px;
+        color: grey;
+        transition: all 0.5s;
+    }
 }
 
 

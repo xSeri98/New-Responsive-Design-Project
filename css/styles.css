@@ -112,6 +112,28 @@ header nav ul li a{
 
 }
 
+#emailBtn{
+   font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: azure;
+    background-color: #fdcb6e;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  
+}
+
+#emailBtn:hover{
+    background-color: #2d3436; 
+    color: #fdcb6e !important;
+    cursor: pointer;
+}
+
+
+
 .my-background{
     background-color: #004aad;
     display: flex;

@@ -6,6 +6,3 @@ var licontent = ulcontent.children[0];
 
 console.log(licontent.childNodes[0].nodeType);
 
-
-
-

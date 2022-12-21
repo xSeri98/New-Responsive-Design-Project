@@ -497,6 +497,9 @@ footer ul li a {
     .about-me-text-container p{
         font-size: 15px;
     }
+    #emailBtn{
+       font-size: 25px;
+    }
 }
 
 

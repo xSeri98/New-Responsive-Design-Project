@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oswald:wght@200;300;600&family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/0a80b60327.js" crossorigin="anonymous"></script>
-    <script src="./scripts/script.js"></script>
+   
     <title>My Portfolio</title>
 </head>
 <body>
@@ -33,16 +33,29 @@
             <p>&mdash;Experienced with C# Winforms Application Development</p>
             <p>&mdash;Equipped with Web Development Skills (HTML55,CSS,JS)</p>
             <p>&mdash;Technical Knowledge of C.R.U.D Operation</p>
+            <button id="emailBtn">Download my resume</button>
+         
         </div>
        
     </div>
+   
+   
     <div class ="my-background" id="my-background">
-        
          <div class="my-background-content">
                  <h1>&nbsp;Background</h1> 
                  <ul>
                     <li>Name : Jose Mari M. Ronquillo</li>
-                    <li>Age : <script>document.write(getAge("1998/12/08"))</script></li>
+                    <li>Age : <script>function getAge(dateString) {
+                        var today = new Date();
+                        var birthDate = new Date(dateString);
+                        var age = today.getFullYear() - birthDate.getFullYear();
+                        var m = today.getMonth() - birthDate.getMonth();
+                        if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                            age--;
+                        }
+                        return age;
+                    }
+                    document.write(getAge("1998/12/08"))</script></li>
                     <li>Address : 2932 Dagupan Ext. Gagalangin Tondo, Manila</li>
                     <li>Likes : Music, Food, Animals & My G.F &nbsp; <i class="fa-solid fa-guitar"></i> 
                     <i class="fa-solid fa-bowl-food"></i> <i class="fa-solid fa-paw"></i> 
@@ -52,7 +65,7 @@
                     <li>Programming Languages : C#, Python, Web Dev.(HTML5, CSS, JS)</li>
                  </ul>
          </div>
-    <div class="my-story">
+    <div class="my-story" >
        <h1>A little bit about me</h1>
        <p>I was born and raised on the most notorious side of Manila, Philippines at Gagalangin, Tondo
         <br>
@@ -75,5 +88,6 @@
         <p>&copy;Seri <script>document.write(new Date().getFullYear())</script></p>
         <p>Coded manually with HTML5 and CSS</p>
     </footer>
+    <script src="./scripts/script.js"></script>
 </body>
 </html>

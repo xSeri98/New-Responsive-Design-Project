@@ -54,12 +54,13 @@ header nav ul li a{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     
 }
 
 .hero img{
     max-width: 100%;
+    
 }
 
 .about-me-text-container{
@@ -111,6 +112,40 @@ header nav ul li a{
  
 
 }
+
+#emailBtn{
+    background: #fdcb6e;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-right-width: 5px;
+    border-right-style: solid;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    border-color: black;
+    box-shadow: 0px 8px 5px black;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 50px;
+}
+
+#emailBtn:hover{
+    background: #004aad;
+    color: azure;
+    box-shadow: 0px 8px 5px #fdcb6e;
+    transform: translateY(-7px);
+ 
+}
+
+
+
 
 .my-background{
     background-color: #004aad;

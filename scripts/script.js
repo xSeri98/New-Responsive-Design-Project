@@ -1,10 +1,11 @@
-function getAge(dateString) {
-    var today = new Date();
-    var birthDate = new Date(dateString);
-    var age = today.getFullYear() - birthDate.getFullYear();
-    var m = today.getMonth() - birthDate.getMonth();
-    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
-        age--;
-    }
-    return age;
-}
+var content = document.getElementsByTagName("header")[0].children[0];
+var navcontent = content.children[0];
+var ulcontent = navcontent.children[0];
+var licontent = ulcontent.children[0];
+
+
+console.log(licontent.childNodes[0].nodeType);
+
+
+
+
